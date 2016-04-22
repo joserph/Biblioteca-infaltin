@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('assets/css/4style.css')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nav.css') }}">
     <link rel="stylesheet" type="text/css" media="screen" href="css/select_color.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="js/fancybox/jquery.fancybox-1.3.4.css" />
     
@@ -27,7 +28,13 @@
     <!--[if IE 8]><link rel="stylesheet" type="text/css" href="./css/ie8.css" /><![endif]-->
 </head>
 <body>
-    @include('master.nav')
+    <div class="container">
+
+            
+                @include('master.nav')
+                       
+        
+    </div>
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/menuresponsive.js') }}"></script>
     
